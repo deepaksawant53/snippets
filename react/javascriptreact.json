@@ -65,11 +65,10 @@
   "Stateless Function Component": {
     "prefix": "sfc",
     "body": [
-      "const | = props => {",
-      "\treturn ( | );",
-      "\t\tconst | = props => {",
-      "\treturn ( | );",
-      "};"
+      "const $1 = props => {",
+      "\treturn ($2);",
+      "};",
+      "export default $1;"
     ]
   },
   "Set state": {
